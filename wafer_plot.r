@@ -19,3 +19,14 @@ p= p+scale_fill_gradient(low = "yellow", high = "blue")
 p+theme_bw()+theme(panel.grid=element_blank(),panel.border=element_blank(),axis.ticks = element_blank(),
                    axis.line=element_blank(),axis.title = element_blank(),axis.text = element_blank(),
                    legend.position = "none")
+
+
+
+
+
+#read jpg
+library(imager)
+img = load.image(file = "D:/使用者/skywayoo/Desktop/wwww.jpeg")
+img
+#Image. Width: 672 pix Height: 672 pix Depth: 1 Colour channels: 3 
+plot(img)
