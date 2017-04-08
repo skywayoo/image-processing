@@ -28,5 +28,8 @@ img = load.image(file = "D:/使用者/skywayoo/Desktop/wwww.jpeg")
 img
 #Image. Width: 672 pix Height: 672 pix Depth: 1 Colour channels: 3 
 plot(img)
+
 #看圖的值
+dim(img)
 img[,,1,1]
+plot(as.cimg(img[,,1,1]))
