@@ -16,7 +16,6 @@ p
 #設定顏色
 p= p+scale_fill_gradient(low = "yellow", high = "blue")  
 #去除xy軸..etc
-p+theme_bw()+theme(panel.grid=element_blank(),panel.border=element_blank(),
-                   axis.line=element_blank(),axis.title.x = element_blank(),
-                   axis.title.y = element_blank(),axis.text.x = element_blank(),axis.text.y = element_blank(),
+p+theme_bw()+theme(panel.grid=element_blank(),panel.border=element_blank(),axis.ticks = element_blank(),
+                   axis.line=element_blank(),axis.title = element_blank(),axis.text = element_blank(),
                    legend.position = "none")
